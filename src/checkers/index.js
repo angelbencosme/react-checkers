@@ -291,7 +291,7 @@ export default class Index extends Component {
                 gameStatus = 'No moves left - Machine Wins!';
                 break;
             default:
-                gameStatus = currentState.currentPlayer === true ? `It\'s ${name} turn ` : 'It\'s Machine turn';
+                gameStatus = currentState.currentPlayer === true ? `It\`s ${name} turn ` : 'It\`s Machine turn';
                 break;
         }
         console.log(color, 'render')
